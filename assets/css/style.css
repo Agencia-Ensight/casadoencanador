@@ -16976,7 +16976,7 @@ ul a.rsswidget {
   animation: 20s bgMove infinite linear;
   background-repeat: repeat-y;
   background-size: 100%;
-  background-image: url(../../1_Factory/images/background/line.png);
+  /* background-image: url(../../1_Factory/images/background/line.png); */
   height: 100%;
   width: 100%;
   z-index: 1;
