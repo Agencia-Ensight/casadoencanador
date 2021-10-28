@@ -25,8 +25,8 @@ require('recaptcha-master/src/autoload.php');
 /* ReCaptch Secret */
 $recaptchaSecret = '<!-- Put Your reCaptcha Secret Key -->';
 
-$dzEmailTo 		= "your@email.here";   /* Receiver Email Address */
-$dzEmailFrom    = "Mazo Contact";
+$dzEmailTo 		= "casadoencanadorgtba@hotmail.com";   /* Receiver Email Address */
+$dzEmailFrom    = "Casa do Encanador";
 
 
 function pr($value)
