@@ -13313,9 +13313,9 @@ ul a.rsswidget {
 .about-media {
   position: relative; }
 
-.move-1 {
+/* .move-1 {
   -webkit-animation: move1 5s infinite;
-  animation: move1 5s infinite; }
+  animation: move1 5s infinite; } */
 
 .move-2 {
   -webkit-animation: move2 5s infinite;
