@@ -601,7 +601,7 @@ var Mazo = function(){
 	}
 	
 	var handleSupport = function(){
-		var support = '<a href="https://1.envato.market/qn2QWN" target="_blank" class="bt-buy-now theme-btn"><i class="fab fa-whatsapp"></i></a>';
+		var support = '<a href="https://wa.me/554196900017" target="_blank" class="bt-buy-now theme-btn"><i class="fab fa-whatsapp"></i></a>';
 		jQuery('body').append(support);
 	}
 	
