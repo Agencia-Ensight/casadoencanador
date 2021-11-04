@@ -171,12 +171,12 @@ try {
 			if(mail($dzEmailTo, $dzMailSubject, $dzMailMessage, $dzEmailHeader))
 			{
 				$dzRes['status'] = 1;
-				$dzRes['msg'] = 'We have received your message successfully. Thanks for Contact.';
+				$dzRes['msg'] = 'Recebemos sua mensagem com sucesso. Obrigado pelo contato.';
 			}
 			else
 			{
 				$dzRes['status'] = 0;
-				$dzRes['msg'] = 'Some problem in sending mail, please try again later.';
+				$dzRes['msg'] = 'Algum problema no envio de e-mail, tente novamente mais tarde.';
 			}
 			echo json_encode($dzRes);
 			exit;
@@ -186,7 +186,7 @@ try {
 	}
 } catch (\Exception $e) {
     $dzRes['status'] = 0;
-	$dzRes['msg'] = $e->getMessage().'Some problem in sending mail, please try again later.';
+	$dzRes['msg'] = $e->getMessage().'Algum problema no envio de e-mail, tente novamente mais tarde.';
 	echo json_encode($dzRes);
 	exit;
 }
